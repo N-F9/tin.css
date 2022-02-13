@@ -1,0 +1,21 @@
+// https://coolors.co/f15025-ffffff-e6e8e6-ced0ce-191919
+$main: #f15025;
+$white: #e6e8e6;
+$gray: #ced0ce;
+$black: #191919;
+
+* {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 0;
+	margin: 0;
+	color: $black;
+}
+
+body {
+	background: $white;
+}
+
+@import './modules/elements.scss';
+@import './modules/utilities.scss';
