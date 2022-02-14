@@ -1,7 +1,7 @@
 @for $i from 1 through 6 {
 	h#{$i} {
 		font-size: (36 - 4 * ($i - 1)) * 1px;
-		line-height: 1.5;
+		line-height: 2;
 
 		@if $i == 1 {
 			font-weight: bold;
@@ -9,7 +9,6 @@
 
 		@if $i>3 {
 			font-style: italic;
-			list-style: 1.25;
 		}
 	}
 }
