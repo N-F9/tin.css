@@ -38,7 +38,8 @@ small {
 
 blockquote {
 	border-left: solid 2px $black;
-	padding: 4px;
+	padding: 0 4px;
+	margin: 4px 0;
 }
 
 code, pre {
@@ -78,6 +79,8 @@ table {
 	border: 0.25px solid $gray;
 	text-align: left;
 	border-collapse: collapse;
+	object-fit: cover;
+	width: 100%;
 
 	caption {
 		padding: 4px;
