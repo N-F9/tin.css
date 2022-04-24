@@ -1,6 +1,6 @@
 @for $i from 1 through 6 {
 	h#{$i} {
-		font-size: (36 - 4 * ($i - 1)) * 1px;
+		font-size: (40 - 4 * ($i - 1)) * 1px;
 		line-height: 2;
 
 		@if $i == 1 {
@@ -11,6 +11,10 @@
 			font-style: italic;
 		}
 	}
+}
+
+p {
+	font-size: 16px;
 }
 
 hr {
@@ -37,7 +41,7 @@ blockquote {
 	padding: 4px;
 }
 
-code {
+code, pre {
 	font-family: monospace;
 	background: $gray;
 	padding: 4px;
@@ -56,11 +60,11 @@ ol {
 }
 
 a {
-	color: $main;
+	color: $black;
 	text-decoration: underline;
 
 	&:hover {
-		color: darken($main, 12.5%)
+		color: darken($black, 12.5%)
 	}
 }
 
