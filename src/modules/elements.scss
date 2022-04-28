@@ -1,7 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+	line-height: 2;
+}
+
 @for $i from 1 through 6 {
 	h#{$i} {
 		font-size: (40 - 4 * ($i - 1)) * 1px;
-		line-height: 2;
 
 		@if $i == 1 {
 			font-weight: bold;
