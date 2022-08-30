@@ -66,6 +66,7 @@ ol {
 a {
 	color: $black;
 	text-decoration: underline;
+	transition: 0.5s;
 
 	&:hover {
 		color: darken($black, 12.5%)
